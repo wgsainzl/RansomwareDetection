@@ -13,8 +13,8 @@
 
 set -euo pipefail
 
-OUT_DIR="${1:-./dataset/raw/benign}"
-TEST_DATA_DIR="${2:-./test_data}"
+OUT_DIR="${}"
+TEST_DATA_DIR="${}"
 SAMPLE_INTERVAL_MS=10   # igual que el paper (10ms)
 DURATION_S=30            # duración de cada workload
 
