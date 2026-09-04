@@ -1,5 +1,3 @@
-esto es correcto?
-
 #!/bin/bash
 # ==============================================================================
 # run_ransomware_workloads.sh
@@ -93,7 +91,7 @@ prepare_test_data () {
 prepare_test_data
 # 1. CryptSky
 run_with_perf "CryptSky" \
-    bash -c "cd ~/Desktop/'Ransomware Scripts'/CryptSky && python3 main.py '${TEST_DATA_DIR}'"
+    bash -c "cd ~/Desktop/'Ransomware Scripts'/CryptSky && python main.py '${TEST_DATA_DIR}'"
 echo ""
 echo "=== Todos los workloads ransomware completados ==="
 echo "CSVs disponibles en: $OUT_DIR"
