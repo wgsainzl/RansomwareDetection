@@ -19,7 +19,7 @@ SAMPLE_INTERVAL_MS=10   # igual que el paper (10ms)
 DURATION_S=30            # duración de cada workload
 
 # Eventos de hardware seleccionados por los autores (ajusta según tu CPU)
-EVENTS="branches,instructions,cache-references,mem-loads,mem-stores,LLC-misses"
+EVENTS="task-clock,context-switches,page-faults,cpu-migrations"
 
 mkdir -p "$OUT_DIR"
 mkdir -p "$TEST_DATA_DIR"
